@@ -32,3 +32,36 @@
     }
     .card h2 { color: #1a3c6e; margin-bottom: 15px; }
     .card p { line-height: 1.7; color: #555; }
+
+    button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  background-color: gray;
+  color: white;
+  cursor: pointer;
+}
+
+/* Hover */
+.btn-hover:hover {
+  background-color: blue;
+}
+
+/* Active (quando clica) */
+.btn-active:active {
+  background-color: red;
+}
+
+/* Focus (quando selecionado com TAB ou clique) */
+.btn-focus:focus {
+  background-color: green;
+  outline: 2px solid black;
+}
+
+.highlight {
+
+    background-color: yellow;
+
+    font-weight: bold;
+
+}
