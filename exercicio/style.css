@@ -1,0 +1,42 @@
+h1{
+    color: blue;
+    font-size: 24px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+} 
+
+h2{
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+} 
+
+.link {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.midia {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+}
+
+/* Ajuste especial para iframe (YouTube) */
+iframe.midia {
+    aspect-ratio: 16 / 9;
+}
+
+.midia {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 700px;
+}
+
+.bootstrap {
+    text-align: center;
+    margin-top: 20px;
+}
