@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Responsiva com Bootstrap</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        header {
+            background-color: #0d6efd;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .coluna {
+            background-color: #f8f9fa;
+            border: 1px solid #ddd;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            background-color: #212529;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        .container-fluid {
+            width: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .coluna-1 {
+            background-color: blue; /* cor de fundo */
+            color: white;           /* cor do texto */
+        }
+
+        .coluna-2 {
+            background-color: green;
+            color: white;
+        }
+
+        .coluna-3 {
+            background-color: gray;
+            color: white;
+        }
+    </style>
+
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header class="container-fluid">
+        <h1>Pagina Responsiva com Bootstramp Grid</h1>        
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main class="container my-4">
+        <div class="row">
+            
+            <!-- Coluna 1 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="col bg-primary text-white p-3 shadow rounded text-center">
+                    <div class="coluna-1">
+                        <h3>Cadacoluna  deve ter uma cor diferente</h3>
+                        <p>Conteúdo da primeira coluna tem um fundo Azul.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Coluna 2 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="col bg-primary text-white p-3 shadow rounded text-center">
+                    <div class="coluna-2">
+                        <h3>Cadacoluna  deve ter uma cor diferente</h3>
+                        <p>Conteúdo da segunda coluna tem um fundo Verde.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Coluna 3 -->
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="col bg-primary text-white p-3 shadow rounded text-center">
+                     <div class="coluna-3">
+                        <h3>Cadacoluna  deve ter uma cor diferente</h3>
+                        <p>Conteúdo da terceira coluna tem um fundo Cinza.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Rodapé --    Print do exercicio>
+    <footer>
+        <p>Desenvolvimento com Boostrap 5</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+
