@@ -8,9 +8,13 @@ int main(void) {
     } while (0 > linha);
 
     for (int i = 0; i < linha; i++) {
-        printf("%d\n", i);
-    }
 
-    printf("Linhas: "); 
-    printf("%d\n", linha);
+        printf("*");
+
+        for (int j = 0; j < i; j++) {
+            printf("*");
+           
+        }
+        printf("\n");
+    }
 }
