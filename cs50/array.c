@@ -1,11 +1,19 @@
 #include <stdio.h>
 
+int print_array(int number[], int size);
+
 int main(void) {
-    char number[3] = "HI!";
-    
-    for (int i = 0; i < 3; i++) {
-        printf("%c ", number[i]);
-    }
+    int number[] = {7, 4, 6, 8};
+
+    print_array(number, 4);
     printf("\n");
+    return 0;
+}
+
+int print_array(int number[], int size) {
+    
+    for (int i = 0; i < size; i++) {
+        printf("%i", number[i]);
+    }
 }
 
